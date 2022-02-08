@@ -1,0 +1,6 @@
+select id, title, description from Data where userId==4051
+
+insert into Data ('id', 'title', 'description', 'location', 'lng', 'lat', 'userId', 'name', 'isdeleted', 'profilePicture', 'videoUrl', 'images', 'mediatype', 'imagePaths', 'feedsComment', 'commentCount', 'multiMedia', 'likeDislike', 'createdAt', 'code', 'msg') values (2140, 'gj', 'ghj', 'Hermannplatz 5-6, 10967 Berlin, Germany', 0, 0, 4051, 'manoj', False, 'Images/9b291404-bc2e-4806-88c5-08d29e65a5ad.png', None, None, 0, None, None, 0, [{'id': 3240, 'name': '', 'description': None, 'url': 'http://www.youtube.com/embed/mPhboJR0Llc', 'mediatype': 2, 'likeCount': 0, 'place': None, 'createAt': '0001-01-01T00:00:00'}], {'likes': 0, 'dislikes': 0, 'userAction': 2}, '2020-01-02T13:32:16.7480006', 0, None)
+
+
+insert into Data (colname1, colname2, val3) values (val1, val2, val3)
